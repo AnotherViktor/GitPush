@@ -1,0 +1,12 @@
+print("Hello USer!")
+YourName=input("What is your name?")
+print("Hi"+YourName+" "+"!")
+
+YourNumber=input("Hi, whats your favorite number?")
+If (int(YourNumber)<5):
+    print("your number is lower then mine")
+Elseif (int(YourNumber)==5):
+    print("Your number is same as mine")
+Else (int(YourNumber)>5):
+    print("your number is greater then mine")
+End if
